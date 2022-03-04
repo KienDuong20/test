@@ -28,7 +28,7 @@ class DetailUser extends React.Component {
 
         return (
             <>
-                <div>hello world from detail user with id: {this.props.match.params.id}</div>
+                <div>hello world from detail user with ID: {this.props.match.params.id}</div>
                 {isEmptyObj === false &&
                     <>
                         <div>User's name: {user.first_name} - {user.last_name}</div>
