@@ -25,7 +25,7 @@ class ListUser extends React.Component {
         return (
             <div className="list-user-container">
                 <div className="title">
-                    Fetch all list users akka
+                    Fetch all list users akka lalala
                 </div>
                 <div className="list-user-content">
                     {listUsers && listUsers.length > 0 &&
